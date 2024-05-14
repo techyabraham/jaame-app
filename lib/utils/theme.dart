@@ -25,7 +25,6 @@ class Themes {
   static final light = ThemeData.light().copyWith(
     useMaterial3: true,
     primaryColor: CustomColor.primaryLightColor,
-    backgroundColor: CustomColor.primaryBGLightColor,
     scaffoldBackgroundColor: CustomColor.primaryLightScaffoldBackgroundColor,
     brightness: Brightness.light,
     textTheme: ThemeData.dark().textTheme.apply(
