@@ -47,7 +47,7 @@ class ConfirmScreen extends StatelessWidget{
         child: Column(
           mainAxisAlignment: MainAxisAlignment.end,
           children: [
-            Image.asset(  onApproval ? "assets/placeholder/warn.png": "assets/placeholder/confirmation.png"),
+            Image.asset(  onApproval ? "assets/placeholder/confirmation.png": "assets/placeholder/confirmation.png"),
           ],
         ),
       ),
