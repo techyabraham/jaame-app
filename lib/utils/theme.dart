@@ -25,7 +25,7 @@ class Themes {
   static final light = ThemeData.light().copyWith(
     useMaterial3: true,
     primaryColor: CustomColor.primaryLightColor,
-    backgroundColor: CustomColor.primaryBGLightColor,
+    dialogBackgroundColor: CustomColor.primaryBGLightColor,
     scaffoldBackgroundColor: CustomColor.primaryLightScaffoldBackgroundColor,
     brightness: Brightness.light,
     textTheme: ThemeData.dark().textTheme.apply(
@@ -36,7 +36,7 @@ class Themes {
   static final dark = ThemeData.dark().copyWith(
     useMaterial3: true,
     primaryColor: CustomColor.primaryDarkColor,
-    backgroundColor: CustomColor.primaryBGDarkColor,
+    dialogBackgroundColor: CustomColor.primaryBGDarkColor,
     scaffoldBackgroundColor: CustomColor.primaryDarkScaffoldBackgroundColor,
     brightness: Brightness.dark,
     textTheme: ThemeData.dark().textTheme.apply(
